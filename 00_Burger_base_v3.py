@@ -1,15 +1,6 @@
 import random
 
 
-# functions
-# makes names capitals so is gramatically correct
-def capitalize_name(name):
-    if not name:
-        return ""
-
-    # Convert the first character to uppercase and the rest to lowercase
-    capitalized = name[0].upper() + name[1:].lower()
-    return capitalized
 
 
 # instructions and the menu
@@ -164,7 +155,7 @@ mini_movie_dict = {
 another = "yes"
 print("Welcome to Troy's Big Burgers!")
 input_name = input("Please enter the name you would like your order under:")
-name = capitalize_name(input_name)
+name = (input_name).strip().title()
 phone = num_check("Please enter a contact number so we can let you know if we have any issues")
 
 while another == "yes":
