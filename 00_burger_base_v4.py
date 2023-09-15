@@ -167,7 +167,7 @@ BURGERS_SOLD_LIST = []
 PRICES_LIST = []
 SIDE_PICKED = []
 
-mini_movie_dict = {
+burger_dict = {
     "Burger": all_burgers,
     "Side Price": all_sides
 }
